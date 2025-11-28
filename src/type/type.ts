@@ -1,5 +1,5 @@
 export interface Employee{
-    id: number;
+    id?: number;
     matricule: string;
     nom: string;
     prenom: string;
