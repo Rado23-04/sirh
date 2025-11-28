@@ -27,6 +27,10 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
                         <Link to="/leave-request" className="block text-black py-2 px-4 rounded hover:bg-indigo-700">
                             Demande de Congé
                         </Link>
+                        <Link to="/payroll/generate" className="block text-black py-2 px-4 rounded hover:bg-indigo-700">
+                            Payroll
+                        </Link>
+                        
                     </nav>
                 </aside>
 
